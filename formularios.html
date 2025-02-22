@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Inicio</title>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Información General</legend>
+                <div>
+                    <label for="">Nombre:</label>
+                    <input type="text" name="nombre" placeholder="Ingrese su nombre completo" maxlength="60" value="Pepito" readonly> 
+                </div>
+                <div>
+                    <label for="">Contraseña:</label>
+                    <input type="password" name="pwd">
+                </div>
+                <div>
+                    <label for="">Email:</label>
+                    <input type="email" name="correo">
+                </div>
+                <div>
+                    <label for="">Edad:</label>
+                    <input type="number" name="edad" value="18" min="14" max="120">
+                </div>
+                <div>
+                    <label for="">Fecha de cumpleaños:</label>
+                    <input type="date" name="bday">
+                </div>
+                <div>
+                    <label for="">Color:</label>
+                    <input type="color" name="color">
+                </div>
+                <div>
+                    <label for="">Archivo:</label>
+                    <input type="file" name="file" multiple accept="">
+                </div>
+                <div>
+                    <label for="">hora:</label>
+                    <input type="time" name="hora">
+                </div>
+                <div>
+                    <label for="">Mes:</label>
+                    <input type="month" name="month">
+                </div>
+                <div>
+                    <label for="">Semana:</label>
+                    <input type="week" name="week">
+                </div>
+                <div>
+                    <label for="">Categoria:</label>
+                    <label>
+                        Categoría A
+                        <input type="radio" name="catg1" value="A">
+                        
+                    </label>
+                    <label>
+                        Categoría B
+                        <input type="radio" name="catg2" value="B" checked>
+                        
+                    </label>
+                    <label>
+                        Categoría C
+                        <input type="radio" name="catg3" value="C">
+                        
+                    </label>
+
+                </div><div>
+                    <label for="">Pasatiempos:</label>
+                    <label>
+                        Opción 1
+                        <input type="checkbox" name="passtimeA">
+                        
+                    </label>
+                    <label>
+                        Opción 2
+                        <input type="checkbox" name="passtimeB">
+                    
+                    </label>
+                    <label>
+                        Opción 3
+                        <input type="checkbox" name="passtimeC">
+                    </label>
+                </div>
+                <div>
+                    <label for="">Ciudad:</label>
+                    <select name="city" id="">
+                        <option value="1">Tunja</option>
+                        <option value="2">Duitama</option>
+                        <option value="3">Sogamoso</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Descripción:</label>
+                    <textarea name="" cols="" rows=""></textarea>
+                </div>
+                <div>
+                   <input type="button" value="Botón">
+                   <input type="reset" value="Borrar">
+                   <input type="submit" value="Enviar">
+                </div>
+
+            </fieldset>
+
+        </form>
+    </body>
+</html>
